@@ -1,23 +1,32 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from "next/head";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Dinetap.</title>
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
-      </main>
+        <div
+          style={{
+            paddingLeft: "300px",
+            paddingRight: "300px",
+          }}
+        >
+          <img
+            src="/logo.png"
+            style={{
+              width: "100%",
+            }}
+          />
+        </div>
 
-      <Footer />
+        <Header title="Coming Soon!" />
+      </main>
     </div>
-  )
+  );
 }
