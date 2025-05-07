@@ -13,8 +13,9 @@ export default function Home() {
       <main>
         <div
           style={{
-            paddingLeft: "300px",
-            paddingRight: "300px",
+            paddingLeft: "10%",
+            paddingRight: "10%",
+            maxWidth: "800px",
           }}
         >
           <img
